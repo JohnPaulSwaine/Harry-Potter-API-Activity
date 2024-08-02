@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-image: url(./assets/Hogwarts.webp);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+h1, h3 {
+  color: antiquewhite;
+}
+
+.image{
+  size-adjust: 25%;
+
+}
+.modal {
+  background-image: url('./assets/Hogwarts.webp');
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: antiquewhite;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  height: 90%;
+  width: 70%;
+
+}
